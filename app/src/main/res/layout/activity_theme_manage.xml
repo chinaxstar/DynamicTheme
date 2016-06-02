@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/bgColor"
+    tools:context="com.tzx.dynamictheme.ThemeManageActivity">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+
+        <ListView
+            android:id="@+id/theme_list_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="?attr/listDividerColor"
+            android:dividerHeight="10dp"
+            android:listSelector="?attr/listSelectColor"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DynamicTheme</string>
+    <string name="save_theme">保存主题</string>
+    <string name="theme_1">主题白</string>
+</resources>
